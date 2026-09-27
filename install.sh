@@ -13,7 +13,7 @@ SHORTID=$(openssl rand -hex 8)
 
 mkdir -p /usr/local/etc/xray
 
-cat > /usr/local/etc/xray/config.json «EOF
+cat > /usr/local/etc/xray/config.json <<EOF
 {
   "log": {
     "loglevel": "warning"
